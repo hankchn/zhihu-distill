@@ -1,18 +1,30 @@
-# Zhihu Distill data
+# === 敏感凭证 ===
 cookie.txt
 *.cookie
+.env
+.env.*
+secrets.*
 
-# Downloaded content
+# === 用户数据（下载/筛选/蒸馏产物） ===
 raw/
 filtered/
 distilled/
 merged.md
+meta.json
+*_merged.md
 
-# OS files
+# === OS ===
 .DS_Store
+Thumbs.db
+
+# === Python ===
 __pycache__/
 *.pyc
+*.pyo
+.venv/
+venv/
 
-# IDE
+# === IDE ===
 .vscode/
 .idea/
+*.swp
