@@ -1,0 +1,18 @@
+# Zhihu Distill data
+cookie.txt
+*.cookie
+
+# Downloaded content
+raw/
+filtered/
+distilled/
+merged.md
+
+# OS files
+.DS_Store
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
